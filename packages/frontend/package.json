@@ -1,0 +1,20 @@
+{
+  "name": "packages-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "sst bind vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@types/simple-peer": "^9.11.5",
+    "svelte": "^3.55.1",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "simple-peer": "^9.11.1"
+  }
+}
